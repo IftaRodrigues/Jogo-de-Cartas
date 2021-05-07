@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_descricao">
+
+    <fragment
+        android:id="@+id/nav_descricao"
+        android:name="com.ifta.avaliacaobimestral_ifta.ui.descricao.DescricaoFragment"
+        android:label="@string/descricao"
+        tools:layout="@layout/fragment_descricao" />
+
+    <fragment
+        android:id="@+id/nav_player_one"
+        android:name="com.ifta.avaliacaobimestral_ifta.ui.playerOne.PlayerOneFragment"
+        android:label="@string/player_one"
+        tools:layout="@layout/fragment_playerone" />
+
+    <fragment
+        android:id="@+id/nav_player_two"
+        android:name="com.ifta.avaliacaobimestral_ifta.ui.playerTwo.PlayerTwoFragment"
+        android:label="@string/player_two"
+        tools:layout="@layout/fragment_playertwo" />
+
+    <fragment
+        android:id="@+id/nav_gerar_pesos"
+        android:name="com.ifta.avaliacaobimestral_ifta.ui.gerarPesos.GerarPesosFragment"
+        android:label="@string/gerar_pesos"
+        tools:layout="@layout/fragment_gerarpesos" />
+
+    <fragment
+        android:id="@+id/nav_resultado"
+        android:name="com.ifta.avaliacaobimestral_ifta.ui.resultado.ResultadoFragment"
+        android:label="@string/resultado"
+        tools:layout="@layout/fragment_resultado" />
+
+</navigation>

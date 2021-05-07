@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_descricao"
+            android:title="@string/descricao" />
+        <item
+            android:id="@+id/nav_player_one"
+            android:title="@string/player_one" />
+        <item
+            android:id="@+id/nav_player_two"
+            android:title="@string/player_two" />
+        <item
+            android:id="@+id/nav_gerar_pesos"
+            android:title="@string/gerar_pesos" />
+        <item
+            android:id="@+id/nav_resultado"
+            android:title="@string/resultado" />
+    </group>
+</menu>

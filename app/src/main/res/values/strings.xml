@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Avaliacao Bimestral - Ifta</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sorteio de Cartas</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="localizacao">Localização do IFTO- Campus Palmas</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="descricao">Descrição</string>
+    <string name="player_one">Player One</string>
+    <string name="player_two">Player Two</string>
+    <string name="gerar_pesos">Gerar Pesos</string>
+    <string name="resultado">Resultado</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
